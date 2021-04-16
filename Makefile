@@ -3,4 +3,4 @@ MESSAGE = "Release Version"
 git : 
 	git add .
 	git commit -m $(MESSAGE)
-	git push origin
+	git push -u origin main
